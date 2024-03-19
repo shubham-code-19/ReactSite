@@ -1,5 +1,70 @@
-.mian{
-  height: 100vh;
-  width: 100%;
-  background-color: #000;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: muli;
+}
+
+
+.nav_bg{
+  background-color: #dadada36;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565383;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #565383;
+}
+
+.navbar a:hover{
+  color:#282380 !important;
+}
+
+.active{
+  color: black !important;
+  font-weight: bold;
+ border-bottom: 1px solid #565387
+}
+
+
+
+/* home  */
+.brand_name{
+  color: skyblue;
+}
+.team{
+  font-size: 1.3rem;
+}
+.btn_get_started{
+  border: 2px solid skyblue;
+  padding:10px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: skyblue;
+  font-family: cursive;
+  
+}
+.btn_get_started:hover{
+  color:#282380;
+}
+.header{
+  height: 500px;
+}
+.animated{
+  box-shadow: 10px 10px 50px skyblue;
+  transition: all 3s;
+}
+.animated:hover{
+  transform: translate(40%,40%);
+}
+
+footer{
+  position: absolute;
+  width: 100VW;
+  bottom: 0;
 }

@@ -18,3 +18,11 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+git remote set-url origin 
+
+
+ git remote set-url git remote add origin https://github.com/shubham-code-19/stateViseTracker.git
+
+
+https://pokeapi.co/api/v2/pokemon/pikachu
